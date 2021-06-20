@@ -1,2 +1,2 @@
-worldborder add -4000 600
+worldborder add -500 100
 title @a title {"text":"Border is shrinking!","color":"gold"}
