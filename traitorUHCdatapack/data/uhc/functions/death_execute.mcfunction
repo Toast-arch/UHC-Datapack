@@ -8,4 +8,6 @@ title @a title ""
 
 title @a subtitle [{"text":"There are "},{"score":{"name":"*","objective":"Count"},"bold":true,"color":"dark_red"},{"text":" players remaining"}]
 
+execute as @a[scores={Deaths=1..100}] run gamemode spectator
+
 execute as @a[scores={Deaths=1..100}] run scoreboard players set @s Deaths 0
