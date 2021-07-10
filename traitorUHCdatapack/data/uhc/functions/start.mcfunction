@@ -19,6 +19,8 @@ effect give @a minecraft:regeneration 1 225 true
 effect give @a minecraft:blindness 2 2 true
 effect give @a minecraft:slowness 1 2 true
 
+spreadplayers 0 0 500 1500 true @a
+
 title @a title {"text":"GAME START","bold":true,"color":"#219811"}
 
 playsound minecraft:entity.wither.spawn master @a
@@ -26,7 +28,7 @@ playsound minecraft:entity.wither.death master @a
 
 schedule function uhc:shrink_1000_180 600s
 
-schedule function uhc:shrink_1000_180 1200s
+schedule function uhc:shrink_1000_180_2 1200s
 
 schedule function uhc:shrink_750_120 1500s
 
