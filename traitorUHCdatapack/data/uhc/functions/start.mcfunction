@@ -28,6 +28,8 @@ playsound minecraft:entity.wither.death master @a
 
 schedule function uhc:shrink_1000_180 600s
 
+schedule function uhc:select_traitors 1000s
+
 schedule function uhc:shrink_1000_180_2 1200s
 
 schedule function uhc:shrink_750_120 1500s
