@@ -1,2 +1,2 @@
-worldborder add -200 600
+worldborder add -1000 360
 title @a actionbar {"text":"Border is shrinking!","color":"gold"}
